@@ -3,7 +3,12 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <div className="App-header"> this is header links</div>
+      <div className="jumbotron">
+        <span>logo</span>
+        <span>sign in</span>
+        <span>Register</span>
+        <span>logout</span>
+      </div>
     );
   }
 }

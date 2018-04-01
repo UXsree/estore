@@ -5,6 +5,7 @@ import Header from './components/header';
 import Navigation from './components/navigation';
 import Footer from './components/footer';
 import Contents from './components/contents';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
   render() {
