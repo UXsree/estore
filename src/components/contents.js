@@ -24,9 +24,9 @@ class ContentsContainer extends Component {
     super(props);
     this.state = {
       JsonData: [{
-      "name" : "Ajith.jpg",
-      "medium" : "ballpen",
-      "status" : "sold"
+        "name" : "Ajith.jpg",
+        "medium" : "ballpen",
+        "status" : "sold"
       },
       {
         "name" : "johnson_master.jpg",
