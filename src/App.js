@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/header';
 import Navigation from './components/navigation';
 import Footer from './components/footer';
-import Contents from './components/contents';
+import ContentsContainer from './components/contents';
 import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Navigation />
-        <Contents />
+        <ContentsContainer />
         <Footer />
       </div>
     );

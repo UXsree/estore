@@ -27,6 +27,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-.header{
-
+.bteal{
+  border: 1px solid teal;
+}
+.individualImages{
+  height: 150px;
 }
