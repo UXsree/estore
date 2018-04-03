@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import JsonData from '../feeder.json';
+import JsonData from '../feeder.json';
 
 
 class Content extends Component{
@@ -23,38 +23,10 @@ class ContentsContainer extends Component {
     constructor(props) {
     super(props);
     this.state = {
-      JsonData: [{
-        "name" : "Ajith.jpg",
-        "medium" : "ballpen",
-        "status" : "sold"
-      },
-      {
-        "name" : "johnson_master.jpg",
-        "medium" : "ballpen",
-        "status" : "private collection"
-      },
-      {
-        "name" : "aparna nair.jpg",
-        "medium" : "charcoal",
-        "status" : "available"
-      },
-      {
-        "name" : "russel_crow.jpg",
-        "medium" : "charcoal",
-        "status" : "sold"
-      },
-      {
-        "name" : "portrait_watercolor.jpg",
-        "medium" : "watercolor",
-        "status" : "private collection"
-      },
-      {
-        "name" : "dakshinamoorthy.jpg",
-        "medium" : "watercolor",
-        "status" : "sold"
-      }]
-
+      JsonData: JsonData
     };
+          console.log(".......................");
+      console.log(JsonData);
     //console.log("hunting for jsondata");
     //console.log("path is: "+image1);
   }

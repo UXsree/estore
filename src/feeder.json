@@ -1,6 +1,33 @@
- {
-      "name" : "../src/images/ballpen/Ajith.jpg",
-      "medium" : "charcoal",
-      "status" : "sold"
-  }
+ [
+      {
+        "name" : "Ajith.jpg",
+        "medium" : "ballpen",
+        "status" : "sold"
+      },
+      {
+        "name" : "johnson_master.jpg",
+        "medium" : "ballpen",
+        "status" : "private collection"
+      },
+      {
+        "name" : "aparna nair.jpg",
+        "medium" : "charcoal",
+        "status" : "available"
+      },
+      {
+        "name" : "russel_crow.jpg",
+        "medium" : "charcoal",
+        "status" : "sold"
+      },
+      {
+        "name" : "portrait_watercolor.jpg",
+        "medium" : "watercolor",
+        "status" : "private collection"
+      },
+      {
+        "name" : "dakshinamoorthy.jpg",
+        "medium" : "watercolor",
+        "status" : "sold"
+      }
+]
 
